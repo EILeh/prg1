@@ -1,0 +1,164 @@
+add_publication 1 "VLF Remote Sensing of the iDi Region Ionosphere Using Neural Networks" 2019
+add_publication 7 "JSand" 2012
+add_publication 10 "Shedding light on microbial dark matter a TM6 bacterium as natural endosymbiont of a free-living am" 2015
+add_publication 14 "Bacterial diversity from the source to the tap a comparative study based on 16S rRNA gene-DGGE and " 2012
+add_publication 23 "Dysregulation in AktmTORHIF-1 signaling identified by proteo-transcriptomics of SARS-CoV-2 infected" 2020
+add_publication 34 "Networked Chemoreceptors Benefit Bacterial Chemotaxis Performance" 2016
+add_publication 40 "Biological Engineered Living Materials Growing Functional Materials with Genetically Programmable P" 2018
+add_publication 58 "Transformation of Amorphous Polyphosphate Nanoparticles into Coacervate Complexes An Approach for t" 2018
+add_publication 67 "EM-MAC" 2011
+add_publication 73 "VLF Signal Anomalies During Cyclone Activity in the Atlantic Ocean" 2018
+add_publication 75 "Differential gene expression profiling of Streptococcus mutans cultured under biofilm and planktoni" 2007
+add_publication 83 "Odd and Even Model Self-Assembled Monolayers Links between Friction and Structure" 2005
+add_publication 88 "Shikonin Exerts Cytotoxic Effects in Human Colon Cancers by Inducing Apoptotic Cell Death via the E" 2018
+add_publication 99 "Improving care quality with prison telemedicine The effects of context and multiplicity on successf" 2019
+add_publication 2 "Effects of St Patricks Day Geomagnetic Storm of March 2015 and of June 2015 on Low-EquatorialiDiReg" 2018
+add_publication 3 "Pulsations in the Earths Lower Ionosphere Synchronized With Solar Flare Emission" 2017
+add_publication 4 "International Reference Ionosphere 2016 From ionospheric climate to real-time weather predictions" 2017
+add_publication 5 "FIRI-2018 an Updated Empirical Model of the Lower Ionosphere" 2018
+add_publication 6 "Spatial and Temporal Ionospheric Monitoring Using Broadband Sferic Measurements" 2018
+add_publication 8 "Proxies" 2010
+add_publication 9 "A two-tier sandbox architecture for untrusted JavaScript" 2012
+add_publication 11 "First Evidence of Amoebae-Mycobacteria Association in Drinking Water Network" 2014
+add_publication 12 "Morphological Study of the Encystment and Excystment of iVermamoeba vermiformisi Revealed Original " 2014
+add_publication 13 "Are Uncultivated Bacteria Really Uncultivable" 2012
+add_publication 15 "Diversity and Antibiotic Resistance Patterns of Sphingomonadaceae Isolates from Drinking Water" 2011
+add_publication 16 "Utility of Pyrosequencing in Identifying Bacteria Directly from Positive Blood Culture Bottles" 2008
+add_publication 17 "Central Role of the Cell in Microbial Ecology" 2009
+add_publication 18 "Microbial diversity tolerance and biodegradation potential of urban wetlands with different input r" 2012
+add_publication 19 "New insights into a bacterial metabolic and detoxifying association responsible for the mineralizat" 2008
+add_publication 20 "Combining Culture-Dependent and -Independent Methodologies for Estimation of Richness of Estuarine " 2003
+add_publication 21 "Survival of coliforms and bacterial pathogens within protozoa during chlorination" 1988
+add_publication 22 "Substrate Utilization by an Oxalate-Consuming iSpirillumi Species in Relation to Its Growth in Ozon" 1984
+add_publication 24 "NormalyzerDE Online Tool for Improved Normalization of Omics Expression Data and High-Sensitivity D" 2018
+add_publication 25 "Deficiency of HIF-1a enhances influenza A virus replication by promoting autophagy in alveolar type" 2020
+add_publication 26 "Antiviral Potential of ERKMAPK and PI3KAKTmTOR Signaling Modulation for Middle East Respiratory Syn" 2014
+add_publication 27 "mTOR inhibitors lower an intrinsic barrier to virus infection mediated by IFITM3" 2018
+add_publication 28 "CEBPb Blocks p65 Phosphorylation and Thereby NF-kB-Mediated Transcription in TNF-Tolerant Cells" 2006
+add_publication 29 "Marburg virus regulates the IRE1XBP1-dependent unfolded protein response to ensure efficient viral " 2019
+add_publication 30 "Akt Inhibitor MK2206 Prevents Influenza pH1N1 Virus Infection iIn Vitroi" 2014
+add_publication 31 "Functional Integrity of Nuclear Factor kB Phosphatidylinositol 3-Kinase and Mitogen-Activated Prote" 2004
+add_publication 32 "Suberoylanilide hydroxamic acid SAHA vorinostat suppresses translation of cyclin D1 in mantle cell " 2007
+add_publication 33 "Interferon-b 1a and SARS Coronavirus Replication" 2004
+add_publication 35 "Effects of glutamines and glutamates at sites of covalent modification of a methyl-accepting transd" 1990
+add_publication 36 "The source of high signal cooperativity in bacterial chemosensory arrays" 2016
+add_publication 37 "Ler Is a Negative Autoregulator of the iLEE1i Operon in Enteropathogenic iEscherichia colii" 2004
+add_publication 38 "Direct Imaging of Intracellular Signaling Components That Regulate Bacterial Chemotaxis" 2014
+add_publication 39 "Fast high-throughput measurement of collective behaviour in a bacterial population" 2014
+add_publication 41 "New Vectors for Chromosomal Integration Enable High-Level Constitutive or Inducible Magnetosome Exp" 2014
+add_publication 42 "Genetic Code Expansion of the Silkworm iBombyx morii to Functionalize Silk Fiber" 2018
+add_publication 43 "Controlled Hydrophobic Biosurface of Bacterial Cellulose Nanofibers through Self-Assembly of Natura" 2017
+add_publication 44 "Formation of functional non-amyloidogenic fibres by recombinantiBacillus subtilisiTasA" 2018
+add_publication 45 "Bootstrapped Biocatalysis Biofilm-Derived Materials as Reversibly Functionalizable Multienzyme Surf" 2017
+add_publication 46 "Immobilization of Recombinant iE colii Cells in a Bacterial Cellulose-Silk Composite Matrix To Pres" 2017
+add_publication 47 "Hydrophobic Enhancement of Dopa-Mediated Adhesion in a Mussel Foot Protein" 2012
+add_publication 48 "Adhesion of mussel foot proteins to different substrate surfaces" 2012
+add_publication 49 "Antigen Binding and Site-Directed Labeling of Biosilica-Immobilized Fusion Proteins Expressed in Di" 2016
+add_publication 50 "Preparation and properties of cellulose nanocrystals reinforced collagen composite films" 2013
+add_publication 51 "Structure of the nonameric bacterial amyloid secretion channel" 2014
+add_publication 52 "Bioengineered silkworms with butterfly cytotoxin-modified silk glands produce sericin cocoons with " 2017
+add_publication 53 "Bacterial cellulose-hyaluronan nanocomposite biomaterials as wound dressings for severe skin injury" 2015
+add_publication 54 "Decorating a Blank Slate Protein Hydrogel A General and Robust Approach for Functionalizing Protein" 2017
+add_publication 55 "Engineered cell-to-cell signalling within growing bacterial cellulose pellicles" 2018
+add_publication 56 "Artificial Symmetry-Breaking for Morphogenetic Engineering Bacterial Colonies" 2016
+add_publication 57 "Coupling between distant biofilms and emergence of nutrient time-sharing" 2017
+add_publication 59 "Effect of Surface Potential on NIH3T3 Cell Adhesion and Proliferation" 2014
+add_publication 60 "Amorphous polyphosphate a smart bioinspired nano-bio-material for bone and cartilage regeneration t" 2018
+add_publication 61 "Protein Nanoparticles as Drug Delivery Carriers for Cancer Therapy" 2014
+add_publication 62 "iIn VitroiOsteogenic Potential of Human Mesenchymal Stem Cells Is Predicted byiRunx2Sox9iRatio" 2014
+add_publication 63 "A biocompatible betaine-functionalized polycation for coacervation" 2017
+add_publication 64 "Multiple Strata of Exponentially Growing Polyelectrolyte Multilayer Films" 2006
+add_publication 65 "Polyphosphate platelets and coagulation" 2015
+add_publication 66 "Comprehensive Study of the Chelation and Coacervation of Alkaline Earth Metals in the Presence of S" 2014
+add_publication 68 "SSCH" 2004
+add_publication 69 "Estimating clock uncertainty for efficient duty-cycling in sensor networks" 2005
+add_publication 70 "Design and evaluation of a versatile and efficient receiver-initiated link layer for low-power wire" 2010
+add_publication 71 "The feasibility of launching and detecting jamming attacks in wireless networks" 2005
+add_publication 72 "Surviving wi-fi interference in low power ZigBee networks" 2010
+add_publication 74 "The Lower Ionospheric VLFLF Response to the 2017 Great American Solar Eclipse Observed Across the C" 2018
+add_publication 76 "Growth Development and Gene Expression in a Persistent iStreptococcus gordoniii Biofilm" 2003
+add_publication 77 "Influence of BrpA on Critical Virulence Attributes of iStreptococcus mutansi" 2006
+add_publication 78 "Human Oral Microbial Ecology and Dental Caries and Periodontal Diseases" 1996
+add_publication 79 "ATP-Binding Cassette Transporters in Bacteria" 2004
+add_publication 80 "Identification of a Novel Two-Component System iniStreptococcus gordoniiiV288 Involved in Biofilm F" 2004
+add_publication 81 "Regulation of the Glucosyltransferase igtfBCi Operon by CovR in iStreptococcus mutansi" 2006
+add_publication 82 "Antimicrobial Susceptibility and Composition of Microcosm Dental Plaques Supplemented with Sucrose" 1999
+add_publication 84 "Friction Anisotropy and Asymmetry of a Compliant Monolayer Induced by a Small Molecular Tilt" 1998
+add_publication 85 "Friction Force Microscopy of Self-Assembled Monolayers Influence of Adsorbate Alkyl Chain Length Te" 2001
+add_publication 86 "Comparative Study of the Adhesion Friction and Mechanical Properties of CFsub3sub- and CHsub3sub-Te" 2005
+add_publication 87 "Compression- and Shear-Induced Polymerization in Model Diacetylene-Containing Monolayers" 2004
+add_publication 89 "Advanced glycation end products-induced chondrocyte apoptosis through mitochondrial dysfunction in " 2014
+add_publication 90 "Development of a Test Method for the Evaluation of DNA Damage in Mouse Spermatogonial Stem Cells" 2017
+add_publication 91 "Direct Reaction between Shikonin and Thiols Induces Apoptosis in HL60 Cells" 2002
+add_publication 92 "Nature Nurture and Cancer Risks Genetic and Nutritional Contributions to Cancer" 2017
+add_publication 93 "Cytotoxicity Evaluation of Essential Oil and its Component fromiZingiber officinaleiRoscoe" 2016
+add_publication 94 "Development of Chemotherapy with Cell-Cycle Inhibitors for Adult and Pediatric Cancer Therapy" 2018
+add_publication 95 "The Inhibitory Effect of Shikonin on the Agonist-Induced Regulation of Vascular Contractility" 2015
+add_publication 96 "Shikonin induces ROS-based mitochondria-mediated apoptosis in colon cancer" 2017
+add_publication 97 "Xylene Induces Oxidative Stress and Mitochondria Damage in Isolated Human Lymphocytes" 2017
+add_publication 98 "Shikonin regulates HscpescpLscpascp cell death iviai caspase-3 activation and blockage of DNA synth" 2004
+add_publication 100 "Consultation times in emergency telemedicine using realtime videoconferencing" 2006
+add_publication 101 "Establishing a telemedicine clinic for HIV patients in a correctional facility" 2012
+add_publication 102 "Telemedicine in the Top End" 1995
+add_publication 103 "Analysis of live interactive teledermatologic consultations for prisoners in Korea for 3 years" 2017
+add_publication 104 "Never underestimate inflammatory bowel disease High prevalence rates and confirmation of high incid" 2015
+add_publication 105 "Benefits of a Department of Corrections Partnership With a Health Sciences University" 2014
+add_publication 106 "Evaluating the Effectiveness Efficiency and Safety of Telemedicine for Urological Care in the Male " 2017
+add_publication 107 "Effects of bibliotherapy on treating depression a systematic review" 2017
+add_publication 108 "Effectiveness of Single- and Multiple-Tablet Antiretroviral Regimens in Correctional Setting for Tr" 2017
+add_publication 109 "Delivery of cancer care to inmates of correctional facilities through telemedicine" 2004
+add_publication 110 "Pharmacologic Management of Human Immunodeficiency Virus Wasting Syndrome" 2014
+add_publication 111 "A debate about telemedicine in South Korea" 2016
+add_publication 112 "HIV Subspecialty Care in Correctional Facilities Using Telemedicine" 2015
+add_publication 113 "Distributing Medical Expertise The Evolution And Impact Of Telemedicine In Arkansas" 2014
+add_publication 114 "Enhancing hepatitis C treatment in the custodial setting a national roadmap" 2014
+add_publication 115 "Telepsychiatry in Correctional Facilities Using Technology to Improve Access and Decrease Costs of " 2013
+add_publication 116 "Project ECHO Linking University Specialists with Rural and Prison-Based Clinicians to Improve Care " 2007
+add_publication 117 "Can telemedicine be used to promote sexual health" 2001
+add_publication 118 "Treatment of HCV in the Department of Corrections in the Era of Oral Medications" 2018
+add_publication 119 "Improving Rehabilitative Efforts for Juvenile Offenders Through the Use of Telemental Healthcare" 2015
+add_publication 120 "Use of Telemedicine for Management of Diabetes in Correctional Facilities" 2016
+add_publication 121 "Review of Teleconsultations for Dermatologic Diseases" 2000
+add_publication 122 "Implementation Matters A Review of Research on the Influence of Implementation on Program Outcomes " 2008
+add_publication 123 "Telemedicine in the correctional setting A scoping review" 2018
+add_publication 124 "The use of telepsychiatry within forensic practice a literature review on the use of videolink - a " 2017
+add_publication 125 "Telementoring for hepatitis C treatment in correctional facilities" 2018
+add_publication 126 "Effects of Solar Flares on the Ionosphere of Mars" 2006
+add_publication 127 "Changes in theiDiregion associated with three recent solar eclipses in the South Pacific region" 2016
+add_publication 128 "Ion density calculator IDC A new efficient model of ionospheric ion densities" 2010
+add_publication 129 "Modification of the solar activity indices in the International Reference Ionosphere IRI and IRI-Pl" 2016
+add_publication 130 "Development of an HF selection tool based on the Electron Density Assimilative Model near-real-time" 2009
+add_publication 131 "Proxies" 2010
+add_publication 132 "Object views" 2010
+add_publication 133 "Abdominal Abscess Caused by Mycobacterium llatzerense" 2014
+add_publication 134 "Isolation and Identification of Mycobacteria from Soils at an Illegal Dumping Site and Landfills in" 2006
+add_publication 135 "Infection by Tubercular Mycobacteria Is Spread by Nonlytic Ejection from Their Amoeba Hosts" 2009
+add_publication 136 "Epidemiology of Nontuberculous Mycobacteria in Patients without HIV Infection New York City" 2008
+add_publication 137 "Incidence of nontuberculous mycobacteria in four hot water systems using various types of disinfect" 2008
+add_publication 138 "Pyrosequence Analysis of the ihsp65i Genes of Nontuberculous Mycobacterium Communities in Unchlorin" 2013
+add_publication 139 "Identification of Free-Living Amoebae and Amoeba-Associated Bacteria from Reservoirs and Water Trea" 2013
+add_publication 140 "Characterization of Bacterial Community Structure in a Drinking Water Distribution System during an" 2010
+add_publication 141 "RNA viruses and the mitogenic RafMEKERK signal transduction cascade" 2008
+add_publication 142 "Escherichia coli swimming is robust against variations in flagellar number" 2014
+add_publication 143 "Competition between species can stabilize public-goods cooperation within a species" 2012
+add_publication 144 "Collagen-inducing biologization of prosthetic material for hernia repair Polypropylene meshes coate" 2017
+add_publication 145 "ROS generation mediates the anti-cancer effects of WZ35 via activating JNK and ER stress apoptotic " 2015
+add_publication 146 "Shikonin Derivative DMAKO-05 Inhibits Akt Signal Activation and Melanoma Proliferation" 2016
+add_publication 147 "Online eye care in prisons in Western Australia" 2001
+add_publication 148 "Suppression of Coronavirus Replication by Inhibition of the MEK Signaling Pathway" 2006
+add_publication 149 "Plant polyphenol induced cell death in human cancer cells involves mobilization of intracellular co" 2013
+add_publication 150 "Molecular Pathways Reactive Oxygen Species Homeostasis in Cancer Cells and Implications for Cancer " 2013
+add_publication 151 "Altered mitochondrial function and overgeneration of reactive oxygen species precede the induction " 2001
+add_publication 152 "Targeting SarcoplasmicEndoplasmic Reticulum Ca2-ATPase 2 by Curcumin Induces ER Stress-Associated A" 2011
+add_publication 153 "Cytotoxic effects of 15d-PGJ2 against osteosarcoma through ROS-mediated AKT and cell cycle inhibiti" 2014
+add_publication 154 "Yeast-like chronological senescence in mammalian cells phenomenon mechanism and pharmacological sup" 2011
+add_publication 155 "ROS inhibitor iNi-acetyl-scpLscp-cysteine antagonizes the activity of proteasome inhibitors" 2013
+add_publication 156 "Direct Activation of Bax by p53 Mediates Mitochondrial Membrane Permeabilization and Apoptosis" 2004
+add_publication 157 "JNK phosphorylation of Bim-related members of the Bcl2 family induces Bax-dependent apoptosis" 2003
+add_publication 158 "Reactive oxygen species as double-edged swords in cellular processes low-dose cell signaling versus" 2002
+add_publication 159 "Identification of Michael Acceptor-Centric Pharmacophores with Substituents That Yield Strong Thior" 2013
+add_publication 160 "Telemedicine Screening of Diabetic Retinopathy Using a Hand-Held Fundus Camera" 2000
+add_publication 161 "Super-high-definition image systems for telemedicine" 2000
+add_publication 162 "Purification of a murine protein-tyrosinethreonine kinase that phosphorylates and activates the Erk" 1992
+add_publication 163 "SYNCRIP a Member of the Heterogeneous Nuclear Ribonucleoprotein Family Is Involved in Mouse Hepatit" 2004
+add_publication 164 "The Leader RNA of Coronavirus Mouse Hepatitis Virus Contains an Enhancer-Like Element for Subgenomi" 2000

@@ -1,0 +1,70 @@
+> # Test removing a affiliation
+> clear_all
+Cleared all affiliations and publications
+> get_affiliation_count
+Number of affiliations: 0
+> # Remove non-existing
+> remove_affiliation 33
+Failed (NO_AFFILIATION returned)!
+> # Add affiliations, publications and containment
+> add_affiliation xx "Notown" (100,0)
+Affiliation:
+   Notown: pos=(100,0), id=xx
+> add_affiliation 123456 "Sector7" (0,0)
+Affiliation:
+   Sector7: pos=(0,0), id=123456
+> add_affiliation 654321 "Segment2" (6,6)
+Affiliation:
+   Segment2: pos=(6,6), id=654321
+> get_affiliation_count
+Number of affiliations: 3
+> add_publication 321 "Area9" 1995
+Publication:
+   Area9: year=1995, id=321
+> add_publication 123 "Publication6" 1998
+Publication:
+   Publication6: year=1998, id=123
+> get_all_publications
+Publications:
+1. Publication6: year=1998, id=123
+2. Area9: year=1995, id=321
+> add_affiliation_to_publication 123456 321
+Added 'Sector7' as an affiliation to publication 'Area9'
+Affiliation:
+   Sector7: pos=(0,0), id=123456
+Publication:
+   Area9: year=1995, id=321
+> add_affiliation_to_publication 654321 123
+Added 'Segment2' as an affiliation to publication 'Publication6'
+Affiliation:
+   Segment2: pos=(6,6), id=654321
+Publication:
+   Publication6: year=1998, id=123
+> # Remove affiliation
+> get_affiliations_alphabetically
+Affiliations:
+1. Notown: pos=(100,0), id=xx
+2. Sector7: pos=(0,0), id=123456
+3. Segment2: pos=(6,6), id=654321
+> remove_affiliation xx
+Notown removed.
+> get_affiliations_alphabetically
+Affiliations:
+1. Sector7: pos=(0,0), id=123456
+2. Segment2: pos=(6,6), id=654321
+> # Test publication containment
+> get_publications xx
+Affiliation:
+   !NO_NAME!: pos=(--NO_COORD--), id=xx
+Failed (NO_PUBLICATION returned)!
+> # Remove another
+> get_affiliations_distance_increasing
+Affiliations:
+1. Sector7: pos=(0,0), id=123456
+2. Segment2: pos=(6,6), id=654321
+> remove_affiliation 654321
+Segment2 removed.
+> get_affiliations_distance_increasing
+Affiliation:
+   Sector7: pos=(0,0), id=123456
+> 

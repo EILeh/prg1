@@ -1,0 +1,4 @@
+read "real-data/real_life_publications.txt"
+read "real-data/real_life_affiliations.txt"
+read "real-data/real_life_references.txt"
+read "real-data/real_life_connections.txt"

@@ -1,0 +1,15 @@
+# Test get references
+clear_all
+get_all_publications
+# Add publications
+add_publication 11 "Publication1" 2000
+add_publication 22 "Publication2" 2001
+add_publication 33 "Publication3" 2002
+get_all_publications
+# Add references to other publications
+add_reference 11 22
+add_reference 33 22
+# references in publications after
+get_direct_references 11
+get_direct_references 33
+get_direct_references 22

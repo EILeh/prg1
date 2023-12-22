@@ -1,0 +1,19 @@
+# Test changing coord
+clear_all
+get_affiliation_count
+# Change non-existing
+change_affiliation_coord 123456789 (100,90)
+# Add affiliations
+add_affiliation 123456789 "Fire" (11,12)
+add_affiliation 987654321 "Shelter" (21,22)
+add_affiliation 33 "Park" (3,3)
+add_affiliation 66 "Bay" (50,0)
+get_affiliation_count
+# Change coord
+get_affiliations_distance_increasing
+change_affiliation_coord 33 (30,40)
+affiliation_info 33
+get_affiliations_distance_increasing
+# Test find
+find_affiliation_with_coord (3,3)
+find_affiliation_with_coord (30,40)

@@ -1,0 +1,43 @@
+> # Test adding affiliations and getting basic info
+> # Empty state
+> clear_all
+Cleared all affiliations and publications
+> get_affiliation_count
+Number of affiliations: 0
+> get_all_affiliations
+No affiliations!
+> # Add affiliations
+> add_affiliation Id1 "One" (11,12)
+Affiliation:
+   One: pos=(11,12), id=Id1
+> get_all_affiliations
+Affiliation:
+   One: pos=(11,12), id=Id1
+> add_affiliation Id2 "Two" (21,22)
+Affiliation:
+   Two: pos=(21,22), id=Id2
+> get_affiliation_count
+Number of affiliations: 2
+> # Test getters
+> affiliation_info Id1
+Affiliation:
+   One: pos=(11,12), id=Id1
+> affiliation_info Id2
+Affiliation:
+   Two: pos=(21,22), id=Id2
+> # Test invalid getters
+> affiliation_info X3
+Affiliation:
+   !NO_NAME!: pos=(--NO_COORD--), id=X3
+> # Clear and test
+> clear_all
+Cleared all affiliations and publications
+> get_affiliation_count
+Number of affiliations: 0
+> get_all_affiliations
+No affiliations!
+> # Test a now removed affiliation
+> affiliation_info Id1
+Affiliation:
+   !NO_NAME!: pos=(--NO_COORD--), id=Id1
+> 

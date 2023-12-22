@@ -1,0 +1,21 @@
+# Test adding affiliations and getting basic info
+# Empty state
+clear_all
+get_affiliation_count
+get_all_affiliations
+# Add affiliations
+add_affiliation Id1 "One" (11,12)
+get_all_affiliations
+add_affiliation Id2 "Two" (21,22)
+get_affiliation_count
+# Test getters
+affiliation_info Id1
+affiliation_info Id2
+# Test invalid getters
+affiliation_info X3
+# Clear and test
+clear_all
+get_affiliation_count
+get_all_affiliations
+# Test a now removed affiliation
+affiliation_info Id1

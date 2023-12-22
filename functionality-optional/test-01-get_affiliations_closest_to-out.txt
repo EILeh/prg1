@@ -1,0 +1,40 @@
+> # Test get_affiliations_closest_to
+> clear_all
+Cleared all affiliations and publications
+> get_affiliation_count
+Number of affiliations: 0
+> # Test empty
+> get_affiliations_closest_to (1,1)
+No affiliations!
+> # Add affiliations
+> add_affiliation 123456789 "Fire" (11,12)
+Affiliation:
+   Fire: pos=(11,12), id=123456789
+> add_affiliation 987654321 "Shelter" (21,22)
+Affiliation:
+   Shelter: pos=(21,22), id=987654321
+> add_affiliation 33 "Park" (3,3)
+Affiliation:
+   Park: pos=(3,3), id=33
+> add_affiliation 66 "Bay" (50,0)
+Affiliation:
+   Bay: pos=(50,0), id=66
+> get_affiliation_count
+Number of affiliations: 4
+> # Test get_affiliations_closest_to
+> get_affiliations_closest_to (20,10)
+Affiliations:
+1. Fire: pos=(11,12), id=123456789
+2. Shelter: pos=(21,22), id=987654321
+3. Park: pos=(3,3), id=33
+> get_affiliations_closest_to (1,1)
+Affiliations:
+1. Park: pos=(3,3), id=33
+2. Fire: pos=(11,12), id=123456789
+3. Shelter: pos=(21,22), id=987654321
+> get_affiliations_closest_to (10,10)
+Affiliations:
+1. Fire: pos=(11,12), id=123456789
+2. Park: pos=(3,3), id=33
+3. Shelter: pos=(21,22), id=987654321
+> 

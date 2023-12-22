@@ -1,0 +1,25 @@
+# Test get_closest_common_parent
+clear_all
+get_all_publications
+# Add areas and subarea relationships
+add_publication 0 "Root" 1990
+add_publication 123456 "Sector7" 2000
+add_publication 654321 "Segment2" 2010
+add_reference 123456 0
+add_reference 654321 0
+add_publication 321 "Area9" 1995
+add_publication 123 "Publication6" 1998
+add_reference 321 123456
+add_reference 123 123456
+get_all_publications
+# Test get_closest_common_parent
+get_closest_common_parent 123456 654321
+get_closest_common_parent 123456 321
+get_closest_common_parent 123456 123
+get_closest_common_parent 321 654321
+get_closest_common_parent 123 654321
+get_closest_common_parent 123 321
+# Test non-existing
+get_closest_common_parent 123 56
+get_closest_common_parent 56 123
+get_closest_common_parent 56 57

@@ -1,0 +1,2 @@
+# this is called in case it is necessary to call to see the optimization in find_affiliation_with_coord
+get_affiliations_distance_increasing

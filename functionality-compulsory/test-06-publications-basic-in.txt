@@ -1,0 +1,18 @@
+# Test basic publication operations and getting publication info 
+clear_all
+get_affiliation_count
+# Add affiliations
+add_affiliation 123456789 "Fire" (11,12)
+add_affiliation 987654321 "Shelter" (21,22)
+add_affiliation 654321 "Segment2" (6,6)
+get_affiliation_count
+# Add publications
+add_publication 11 "Publication1" 2000
+publication_info 11
+add_publication 22 "Publication2" 2001
+publication_info 22
+get_all_publications
+# Add affiliations and publications to other publications
+add_affiliation_to_publication 654321 11
+add_affiliation_to_publication 123456789 22
+add_reference 11 22

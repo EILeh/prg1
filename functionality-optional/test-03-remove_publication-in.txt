@@ -1,0 +1,27 @@
+# Test removing a publication
+clear_all
+get_all_publications
+# Remove non-existing
+remove_publication 321
+# Add affiliations, publications and containment
+add_affiliation xx "Notown" (100,0)
+add_publication 321 "Area9" 1995
+add_publication 123 "Publication6" 1998
+add_publication 213 "test2" 2000
+get_all_publications
+add_affiliation_to_publication xx 321
+get_publications xx
+# Remove publication
+remove_publication 321
+get_all_publications
+get_publications xx
+add_publication 321 "Area9" 1995
+add_affiliation_to_publication xx 321
+get_all_publications
+# Reference should be removed
+add_reference 321 123
+add_reference 123 213
+get_referenced_by_chain 321
+remove_publication 123
+get_all_publications
+get_referenced_by_chain 321

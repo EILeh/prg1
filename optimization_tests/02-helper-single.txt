@@ -1,0 +1,2 @@
+# the coordinate here will be randomized in the grader
+find_affiliation_with_coord (5000,5000)

@@ -1,0 +1,8 @@
+# First read in compulsory example
+read "integration-compulsory/test-00-compulsory-in.txt"
+affiliation_info TUNI
+get_affiliation_count
+remove_affiliation TUNI
+# Check if it exists
+get_affiliation_count
+affiliation_info TUNI

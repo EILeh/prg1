@@ -1,0 +1,41 @@
+> # Test get references
+> clear_all
+Cleared all affiliations and publications
+> get_all_publications
+No publications!
+> # Add publications
+> add_publication 11 "Publication1" 2000
+Publication:
+   Publication1: year=2000, id=11
+> add_publication 22 "Publication2" 2001
+Publication:
+   Publication2: year=2001, id=22
+> add_publication 33 "Publication3" 2002
+Publication:
+   Publication3: year=2002, id=33
+> get_all_publications
+Publications:
+1. Publication1: year=2000, id=11
+2. Publication2: year=2001, id=22
+3. Publication3: year=2002, id=33
+> # Add references to other publications
+> add_reference 11 22
+Added 'Publication1' as a reference of 'Publication2'
+Publications:
+1. Publication1: year=2000, id=11
+2. Publication2: year=2001, id=22
+> add_reference 33 22
+Added 'Publication3' as a reference of 'Publication2'
+Publications:
+1. Publication3: year=2002, id=33
+2. Publication2: year=2001, id=22
+> # references in publications after
+> get_direct_references 11
+Publication has no direct references.
+> get_direct_references 33
+Publication has no direct references.
+> get_direct_references 22
+Publications:
+1. Publication1: year=2000, id=11
+2. Publication3: year=2002, id=33
+> 

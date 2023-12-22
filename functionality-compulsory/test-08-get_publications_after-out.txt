@@ -1,0 +1,76 @@
+> # Test get_publications_after
+> clear_all
+Cleared all affiliations and publications
+> get_all_publications
+No publications!
+> get_all_affiliations
+No affiliations!
+> # Add affiliations
+> add_affiliation 123456789 "Tampereen Yliopisto" (21,22) 
+Affiliation:
+   Tampereen Yliopisto: pos=(21,22), id=123456789
+> add_affiliation 987654321 "Turun Yliopisto" (11,12)
+Affiliation:
+   Turun Yliopisto: pos=(11,12), id=987654321
+> # Add publications 
+> add_publication 11 "Publication1" 2000
+Publication:
+   Publication1: year=2000, id=11
+> add_publication 22 "Publication2" 2001
+Publication:
+   Publication2: year=2001, id=22
+> add_publication 33 "Publication3" 2002
+Publication:
+   Publication3: year=2002, id=33
+> # Link publications and affiliations
+> add_affiliation_to_publication 123456789 11
+Added 'Tampereen Yliopisto' as an affiliation to publication 'Publication1'
+Affiliation:
+   Tampereen Yliopisto: pos=(21,22), id=123456789
+Publication:
+   Publication1: year=2000, id=11
+> add_affiliation_to_publication 123456789 22
+Added 'Tampereen Yliopisto' as an affiliation to publication 'Publication2'
+Affiliation:
+   Tampereen Yliopisto: pos=(21,22), id=123456789
+Publication:
+   Publication2: year=2001, id=22
+> add_affiliation_to_publication 123456789 33
+Added 'Tampereen Yliopisto' as an affiliation to publication 'Publication3'
+Affiliation:
+   Tampereen Yliopisto: pos=(21,22), id=123456789
+Publication:
+   Publication3: year=2002, id=33
+> add_affiliation_to_publication 987654321 22
+Added 'Turun Yliopisto' as an affiliation to publication 'Publication2'
+Affiliation:
+   Turun Yliopisto: pos=(11,12), id=987654321
+Publication:
+   Publication2: year=2001, id=22
+> add_affiliation_to_publication 987654321 33
+Added 'Turun Yliopisto' as an affiliation to publication 'Publication3'
+Affiliation:
+   Turun Yliopisto: pos=(11,12), id=987654321
+Publication:
+   Publication3: year=2002, id=33
+> # Check publications of affiliation after year
+> get_publications_after 123456789 2000
+Publications from affiliation Tampereen Yliopisto (123456789) after year 2000:
+ 11 at 2000
+ 22 at 2001
+ 33 at 2002
+> get_publications_after 987654321 2000
+Publications from affiliation Turun Yliopisto (987654321) after year 2000:
+ 22 at 2001
+ 33 at 2002
+> get_publications_after 123456789 2001
+Publications from affiliation Tampereen Yliopisto (123456789) after year 2001:
+ 22 at 2001
+ 33 at 2002
+> get_publications_after 987654321 2002
+Publications from affiliation Turun Yliopisto (987654321) after year 2002:
+ 33 at 2002
+> # Check no publications case
+> get_publications_after 987654321 2359
+No publications from affiliation Turun Yliopisto (987654321) after year 2359
+> 

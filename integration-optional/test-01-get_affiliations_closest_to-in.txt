@@ -1,0 +1,3 @@
+# First read in compulsory example
+read "integration-compulsory/test-00-compulsory-in.txt"
+get_affiliations_closest_to (500,400)

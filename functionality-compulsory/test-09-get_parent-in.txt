@@ -1,0 +1,19 @@
+# Test get_parent
+clear_all
+get_all_publications
+# Add publications and reference relationships
+add_publication 123456 "Sector7" 2000
+add_publication 654321 "Segment2" 2010
+add_reference 123456 654321
+add_publication 321 "Area9" 1995
+add_publication 123 "Publication6" 1998
+add_reference 321 123456
+add_reference 123 123456
+get_all_publications
+# Test get_parent
+get_parent 123456
+get_parent 321
+get_parent 123
+# Test non-existing
+get_parent 654321
+get_parent 56

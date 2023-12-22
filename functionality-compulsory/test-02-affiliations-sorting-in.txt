@@ -1,0 +1,21 @@
+# Test basic sorting operations
+clear_all
+get_affiliation_count
+# Sorting empty
+get_affiliations_alphabetically
+get_affiliations_distance_increasing
+# Add affiliations
+add_affiliation 123456789 "Fire" (11,12)
+add_affiliation 987654321 "Shelter" (21,22)
+add_affiliation 33 "Park" (3,3)
+add_affiliation 66 "Bay" (50,0)
+get_affiliation_count
+# Test sorting
+get_affiliations_alphabetically
+get_affiliations_distance_increasing
+get_affiliations_alphabetically
+# Empty and test again
+clear_all
+get_affiliation_count
+get_affiliations_alphabetically
+get_affiliations_distance_increasing

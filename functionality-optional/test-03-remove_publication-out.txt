@@ -1,0 +1,86 @@
+> # Test removing a publication
+> clear_all
+Cleared all affiliations and publications
+> get_all_publications
+No publications!
+> # Remove non-existing
+> remove_publication 321
+Failed (NO_PUBLICATION returned)!
+> # Add affiliations, publications and containment
+> add_affiliation xx "Notown" (100,0)
+Affiliation:
+   Notown: pos=(100,0), id=xx
+> add_publication 321 "Area9" 1995
+Publication:
+   Area9: year=1995, id=321
+> add_publication 123 "Publication6" 1998
+Publication:
+   Publication6: year=1998, id=123
+> add_publication 213 "test2" 2000
+Publication:
+   test2: year=2000, id=213
+> get_all_publications
+Publications:
+1. Publication6: year=1998, id=123
+2. test2: year=2000, id=213
+3. Area9: year=1995, id=321
+> add_affiliation_to_publication xx 321
+Added 'Notown' as an affiliation to publication 'Area9'
+Affiliation:
+   Notown: pos=(100,0), id=xx
+Publication:
+   Area9: year=1995, id=321
+> get_publications xx
+Affiliation:
+   Notown: pos=(100,0), id=xx
+Publication:
+   Area9: year=1995, id=321
+> # Remove publication
+> remove_publication 321
+Area9 removed.
+> get_all_publications
+Publications:
+1. Publication6: year=1998, id=123
+2. test2: year=2000, id=213
+> get_publications xx
+Affiliation has no publications.
+Affiliation:
+   Notown: pos=(100,0), id=xx
+> add_publication 321 "Area9" 1995
+Publication:
+   Area9: year=1995, id=321
+> add_affiliation_to_publication xx 321
+Added 'Notown' as an affiliation to publication 'Area9'
+Affiliation:
+   Notown: pos=(100,0), id=xx
+Publication:
+   Area9: year=1995, id=321
+> get_all_publications
+Publications:
+1. Publication6: year=1998, id=123
+2. test2: year=2000, id=213
+3. Area9: year=1995, id=321
+> # Reference should be removed
+> add_reference 321 123
+Added 'Area9' as a reference of 'Publication6'
+Publications:
+1. Area9: year=1995, id=321
+2. Publication6: year=1998, id=123
+> add_reference 123 213
+Added 'Publication6' as a reference of 'test2'
+Publications:
+1. Publication6: year=1998, id=123
+2. test2: year=2000, id=213
+> get_referenced_by_chain 321
+Publications:
+1. Publication6: year=1998, id=123
+2. test2: year=2000, id=213
+> remove_publication 123
+Publication6 removed.
+> get_all_publications
+Publications:
+1. test2: year=2000, id=213
+2. Area9: year=1995, id=321
+> get_referenced_by_chain 321
+Publication is not cited anywhere.
+> 

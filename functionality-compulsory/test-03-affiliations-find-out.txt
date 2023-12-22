@@ -1,0 +1,38 @@
+> # Test find commands
+> clear_all
+Cleared all affiliations and publications
+> get_affiliation_count
+Number of affiliations: 0
+> # Find from empty
+> find_affiliation_with_coord (3,3)
+Failed (NO_AFFILIATION returned)!
+> # Add affiliations
+> add_affiliation 123456789 "Fire" (11,12)
+Affiliation:
+   Fire: pos=(11,12), id=123456789
+> add_affiliation 987654321 "Shelter" (21,22)
+Affiliation:
+   Shelter: pos=(21,22), id=987654321
+> add_affiliation 33 "Park" (3,3)
+Affiliation:
+   Park: pos=(3,3), id=33
+> add_affiliation 66 "Bay" (50,0)
+Affiliation:
+   Bay: pos=(50,0), id=66
+> get_affiliation_count
+Number of affiliations: 4
+> # Find affiliations
+> find_affiliation_with_coord (3,3)
+Affiliation:
+   Park: pos=(3,3), id=33
+> find_affiliation_with_coord (11,12)
+Affiliation:
+   Fire: pos=(11,12), id=123456789
+> find_affiliation_with_coord (50,1)
+Failed (NO_AFFILIATION returned)!
+> # Empty and try again
+> clear_all
+Cleared all affiliations and publications
+> find_affiliation_with_coord (3,3)
+Failed (NO_AFFILIATION returned)!
+> 

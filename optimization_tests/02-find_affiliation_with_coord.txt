@@ -1,0 +1,10 @@
+# seed might be randomized in the grader
+random_seed 42
+clear_all
+random_add 100000
+stopwatch next
+read "optimization_tests/02-helper-single.txt" silent
+read "optimization_tests/02-helper-sort.txt" silent
+stopwatch next
+read "optimization_tests/02-helper-19.txt" silent
+clear_all

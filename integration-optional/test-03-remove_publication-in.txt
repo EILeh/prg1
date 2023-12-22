@@ -1,0 +1,7 @@
+# First read in compulsory example
+read "integration-compulsory/test-00-compulsory-in.txt"
+get_all_publications
+publication_info 1724359
+remove_publication 1724359
+publication_info 1724359
+get_all_publications

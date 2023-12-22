@@ -1,0 +1,63 @@
+> # Test basic publication operations
+> clear_all
+Cleared all affiliations and publications
+> get_affiliation_count
+Number of affiliations: 0
+> # Add affiliations
+> add_affiliation 123456789 "Fire" (11,12)
+Affiliation:
+   Fire: pos=(11,12), id=123456789
+> add_affiliation 987654321 "Shelter" (21,22)
+Affiliation:
+   Shelter: pos=(21,22), id=987654321
+> add_affiliation 654321 "Segment2" (6,6)
+Affiliation:
+   Segment2: pos=(6,6), id=654321
+> get_affiliation_count
+Number of affiliations: 3
+> # Add publications
+> add_publication 11 "Publication1" 2000
+Publication:
+   Publication1: year=2000, id=11
+> add_publication 22 "Publication2" 2001
+Publication:
+   Publication2: year=2001, id=22
+> get_all_publications
+Publications:
+1. Publication1: year=2000, id=11
+2. Publication2: year=2001, id=22
+> # Affiliation with no referring publication
+> get_affiliations 11
+Publication has no affiliations.
+Publication:
+   Publication1: year=2000, id=11
+> # Add affiliations and publications to other publications
+> add_affiliation_to_publication 654321 11
+Added 'Segment2' as an affiliation to publication 'Publication1'
+Affiliation:
+   Segment2: pos=(6,6), id=654321
+Publication:
+   Publication1: year=2000, id=11
+> add_affiliation_to_publication 123456789 22
+Added 'Fire' as an affiliation to publication 'Publication2'
+Affiliation:
+   Fire: pos=(11,12), id=123456789
+Publication:
+   Publication2: year=2001, id=22
+> add_reference 11 22
+Added 'Publication1' as a reference of 'Publication2'
+Publications:
+1. Publication1: year=2000, id=11
+2. Publication2: year=2001, id=22
+> # Affiliations in publications after
+> get_affiliations 11
+Affiliation:
+   Segment2: pos=(6,6), id=654321
+Publication:
+   Publication1: year=2000, id=11
+> get_affiliations 22
+Affiliation:
+   Fire: pos=(11,12), id=123456789
+Publication:
+   Publication2: year=2001, id=22
+> 

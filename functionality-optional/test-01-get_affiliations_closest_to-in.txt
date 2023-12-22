@@ -1,0 +1,15 @@
+# Test get_affiliations_closest_to
+clear_all
+get_affiliation_count
+# Test empty
+get_affiliations_closest_to (1,1)
+# Add affiliations
+add_affiliation 123456789 "Fire" (11,12)
+add_affiliation 987654321 "Shelter" (21,22)
+add_affiliation 33 "Park" (3,3)
+add_affiliation 66 "Bay" (50,0)
+get_affiliation_count
+# Test get_affiliations_closest_to
+get_affiliations_closest_to (20,10)
+get_affiliations_closest_to (1,1)
+get_affiliations_closest_to (10,10)

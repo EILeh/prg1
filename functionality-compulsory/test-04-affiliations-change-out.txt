@@ -1,0 +1,49 @@
+> # Test changing coord
+> clear_all
+Cleared all affiliations and publications
+> get_affiliation_count
+Number of affiliations: 0
+> # Change non-existing
+> change_affiliation_coord 123456789 (100,90)
+Failed (NO_AFFILIATION returned)!
+> # Add affiliations
+> add_affiliation 123456789 "Fire" (11,12)
+Affiliation:
+   Fire: pos=(11,12), id=123456789
+> add_affiliation 987654321 "Shelter" (21,22)
+Affiliation:
+   Shelter: pos=(21,22), id=987654321
+> add_affiliation 33 "Park" (3,3)
+Affiliation:
+   Park: pos=(3,3), id=33
+> add_affiliation 66 "Bay" (50,0)
+Affiliation:
+   Bay: pos=(50,0), id=66
+> get_affiliation_count
+Number of affiliations: 4
+> # Change coord
+> get_affiliations_distance_increasing
+Affiliations:
+1. Park: pos=(3,3), id=33
+2. Fire: pos=(11,12), id=123456789
+3. Shelter: pos=(21,22), id=987654321
+4. Bay: pos=(50,0), id=66
+> change_affiliation_coord 33 (30,40)
+Affiliation:
+   Park: pos=(30,40), id=33
+> affiliation_info 33
+Affiliation:
+   Park: pos=(30,40), id=33
+> get_affiliations_distance_increasing
+Affiliations:
+1. Fire: pos=(11,12), id=123456789
+2. Shelter: pos=(21,22), id=987654321
+3. Bay: pos=(50,0), id=66
+4. Park: pos=(30,40), id=33
+> # Test find
+> find_affiliation_with_coord (3,3)
+Failed (NO_AFFILIATION returned)!
+> find_affiliation_with_coord (30,40)
+Affiliation:
+   Park: pos=(30,40), id=33
+> 

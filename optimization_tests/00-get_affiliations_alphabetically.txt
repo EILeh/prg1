@@ -1,0 +1,4 @@
+# seed might be randomized in the grader, the repeat_counts WILL be 1 and 20
+random_seed 42
+perftest get_affiliations_alphabetically 20 1 100000
+perftest get_affiliations_alphabetically 20 20 100000

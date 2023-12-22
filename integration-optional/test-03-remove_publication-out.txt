@@ -1,0 +1,118 @@
+> # First read in compulsory example
+> read "integration-compulsory/test-00-compulsory-in.txt"
+** Commands from 'integration-compulsory/test-00-compulsory-in.txt'
+> clear_all
+Cleared all affiliations and publications
+> # affiliations
+> get_affiliation_count
+Number of affiliations: 0
+> read "example-data/example-affiliations.txt" silent
+** Commands from 'example-data/example-affiliations.txt'
+...(output discarded in silent mode)...
+** End of commands from 'example-data/example-affiliations.txt'
+> get_all_affiliations
+Affiliations:
+1. Helsingin yliopisto: pos=(820,80), id=HY
+2. Ita-Suomen yliopisto: pos=(945,767), id=ISY
+3. Lapin yliopisto: pos=(740,1569), id=LY
+4. Tampereen korkeakouluyhteiso: pos=(542,455), id=TUNI
+5. Turun yliopisto: pos=(366,219), id=TY
+> get_affiliation_count
+Number of affiliations: 5
+> affiliation_info TUNI
+Affiliation:
+   Tampereen korkeakouluyhteiso: pos=(542,455), id=TUNI
+> affiliation_info HY
+Affiliation:
+   Helsingin yliopisto: pos=(820,80), id=HY
+> get_affiliations_alphabetically
+Affiliations:
+1. Helsingin yliopisto: pos=(820,80), id=HY
+2. Ita-Suomen yliopisto: pos=(945,767), id=ISY
+3. Lapin yliopisto: pos=(740,1569), id=LY
+4. Tampereen korkeakouluyhteiso: pos=(542,455), id=TUNI
+5. Turun yliopisto: pos=(366,219), id=TY
+> get_affiliations_distance_increasing
+Affiliations:
+1. Turun yliopisto: pos=(366,219), id=TY
+2. Tampereen korkeakouluyhteiso: pos=(542,455), id=TUNI
+3. Helsingin yliopisto: pos=(820,80), id=HY
+4. Ita-Suomen yliopisto: pos=(945,767), id=ISY
+5. Lapin yliopisto: pos=(740,1569), id=LY
+> change_affiliation_coord TUNI (600,500)
+Affiliation:
+   Tampereen korkeakouluyhteiso: pos=(600,500), id=TUNI
+> find_affiliation_with_coord (600,500)
+Affiliation:
+   Tampereen korkeakouluyhteiso: pos=(600,500), id=TUNI
+> # Publications
+> read "example-data/example-publications.txt" silent
+** Commands from 'example-data/example-publications.txt'
+...(output discarded in silent mode)...
+** End of commands from 'example-data/example-publications.txt'
+> get_publications_after TUNI 1990
+Publications from affiliation Tampereen korkeakouluyhteiso (TUNI) after year 1990:
+ 6440429 at 1992
+ 2528474 at 1994
+> get_publications_after HY 1996
+Publications from affiliation Helsingin yliopisto (HY) after year 1996:
+ 1724359 at 1996
+> get_publications TUNI
+Affiliation:
+   Tampereen korkeakouluyhteiso: pos=(600,500), id=TUNI
+Publications:
+1. Publication2: year=1994, id=2528474
+2. Publication1: year=1992, id=6440429
+> get_affiliations 6440429
+Affiliations:
+1. Helsingin yliopisto: pos=(820,80), id=HY
+2. Ita-Suomen yliopisto: pos=(945,767), id=ISY
+3. Tampereen korkeakouluyhteiso: pos=(600,500), id=TUNI
+Publication:
+   Publication1: year=1992, id=6440429
+> get_all_publications
+Publications:
+1. Publication4: year=1998, id=54224
+2. Publication3: year=1996, id=1724359
+3. Publication2: year=1994, id=2528474
+4. Publication1: year=1992, id=6440429
+> get_direct_references 1724359
+Publication:
+   Publication2: year=1994, id=2528474
+> get_direct_references 54224
+Publications:
+1. Publication3: year=1996, id=1724359
+2. Publication1: year=1992, id=6440429
+> publication_info 6440429
+Publication:
+   Publication1: year=1992, id=6440429
+> get_referenced_by_chain 1724359
+Publication:
+   Publication4: year=1998, id=54224
+> get_referenced_by_chain 54224
+Publication is not cited anywhere.
+> get_parent 6440429
+Publication:
+   Publication4: year=1998, id=54224
+> 
+** End of commands from 'integration-compulsory/test-00-compulsory-in.txt'
+> get_all_publications
+Publications:
+1. Publication4: year=1998, id=54224
+2. Publication3: year=1996, id=1724359
+3. Publication2: year=1994, id=2528474
+4. Publication1: year=1992, id=6440429
+> publication_info 1724359
+Publication:
+   Publication3: year=1996, id=1724359
+> remove_publication 1724359
+Publication3 removed.
+> publication_info 1724359
+Publication:
+   !NO_NAME!: year=--NO_YEAR--, id=1724359
+> get_all_publications
+Publications:
+1. Publication4: year=1998, id=54224
+2. Publication2: year=1994, id=2528474
+3. Publication1: year=1992, id=6440429
+> 

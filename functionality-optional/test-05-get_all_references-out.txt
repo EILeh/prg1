@@ -1,0 +1,65 @@
+> # Test get_all_references
+> clear_all
+Cleared all affiliations and publications
+> get_all_publications
+No publications!
+> # Add publications and reference relationships
+> add_publication 123456 "Sector7" 2000
+Publication:
+   Sector7: year=2000, id=123456
+> add_publication 654321 "Segment2" 2010
+Publication:
+   Segment2: year=2010, id=654321
+> add_reference 123456 654321
+Added 'Sector7' as a reference of 'Segment2'
+Publications:
+1. Sector7: year=2000, id=123456
+2. Segment2: year=2010, id=654321
+> add_publication 321 "Area9" 1995
+Publication:
+   Area9: year=1995, id=321
+> add_publication 123 "Publication6" 1998
+Publication:
+   Publication6: year=1998, id=123
+> add_reference 321 123456
+Added 'Area9' as a reference of 'Sector7'
+Publications:
+1. Area9: year=1995, id=321
+2. Sector7: year=2000, id=123456
+> add_reference 123 123456
+Added 'Publication6' as a reference of 'Sector7'
+Publications:
+1. Publication6: year=1998, id=123
+2. Sector7: year=2000, id=123456
+> get_all_publications
+Publications:
+1. Publication6: year=1998, id=123
+2. Area9: year=1995, id=321
+3. Sector7: year=2000, id=123456
+4. Segment2: year=2010, id=654321
+> # Test get_all_references
+> get_all_references 123456
+Publications:
+1. Sector7: year=2000, id=123456
+2. Publication6: year=1998, id=123
+3. Area9: year=1995, id=321
+> get_all_references 654321
+Publications:
+1. Segment2: year=2010, id=654321
+2. Publication6: year=1998, id=123
+3. Area9: year=1995, id=321
+4. Sector7: year=2000, id=123456
+> get_all_references 321
+No (direct) references!
+Publication:
+   Area9: year=1995, id=321
+> get_all_references 123
+No (direct) references!
+Publication:
+   Publication6: year=1998, id=123
+> # Test non-existing
+> get_all_references 56
+Publications:
+1. !NO_NAME!: year=--NO_YEAR--, id=56
+2. --NO_PUBLICATION--
+> 

@@ -1,0 +1,25 @@
+# Test removing a affiliation
+clear_all
+get_affiliation_count
+# Remove non-existing
+remove_affiliation 33
+# Add affiliations, publications and containment
+add_affiliation xx "Notown" (100,0)
+add_affiliation 123456 "Sector7" (0,0)
+add_affiliation 654321 "Segment2" (6,6)
+get_affiliation_count
+add_publication 321 "Area9" 1995
+add_publication 123 "Publication6" 1998
+get_all_publications
+add_affiliation_to_publication 123456 321
+add_affiliation_to_publication 654321 123
+# Remove affiliation
+get_affiliations_alphabetically
+remove_affiliation xx
+get_affiliations_alphabetically
+# Test publication containment
+get_publications xx
+# Remove another
+get_affiliations_distance_increasing
+remove_affiliation 654321
+get_affiliations_distance_increasing
